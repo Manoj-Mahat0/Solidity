@@ -1,9 +1,9 @@
-// SPDX-License-Identifier: MIT
+
 pragma solidity ^0.8.0;
 
 contract AddNumbers {
-    // Function to add two numbers
-    function add(uint256 num1, uint256 num2) public pure returns (uint256) {
+
+    function add(uint num1, uint num2) public pure returns (uint) {
         return num1 + num2;
     }
 }
